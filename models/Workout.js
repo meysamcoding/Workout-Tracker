@@ -8,6 +8,7 @@ const ExerciseSchema = new Schema({
     },
     exercises: [
         {
+           
             type: {
                 type: String,
                 unique: true,
@@ -60,6 +61,6 @@ const ExerciseSchema = new Schema({
 
 });
 
-const Exercise = mongoose.model("Example", ExerciseSchema);
+const Workout = mongoose.model("Example", ExerciseSchema);
 
-module.exports = Exercise;
+module.exports = Workout;
